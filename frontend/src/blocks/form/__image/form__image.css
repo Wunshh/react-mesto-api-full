@@ -1,0 +1,11 @@
+.form__image {
+    height: 120px;
+    width: 120px;
+    margin: 36px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+    .form__image  {
+        margin: 26px auto 0;
+    }
+}

@@ -1,0 +1,14 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .header__container {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+}

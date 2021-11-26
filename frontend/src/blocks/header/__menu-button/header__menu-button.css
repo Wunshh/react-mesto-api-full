@@ -1,0 +1,24 @@
+.header__menu-button {
+    visibility: hidden;
+    opacity: 0;
+    background-color: transparent;
+    align-self: center;
+    width: 24px;
+    height: 21px;
+    padding: 0;
+    border: none;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+.header__menu-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-button {
+        visibility: visible;
+        opacity: 1;
+    }
+}

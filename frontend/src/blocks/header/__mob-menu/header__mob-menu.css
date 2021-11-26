@@ -1,0 +1,4 @@
+.header__mob-menu {
+    display: flex;
+    justify-content: space-between;
+}

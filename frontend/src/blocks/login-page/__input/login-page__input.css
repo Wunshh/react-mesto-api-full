@@ -1,0 +1,16 @@
+.login-page__input {
+    font-family: "Inter", "Arial", sans-serif;
+    font-weight: 500;
+    height: 27px;
+    border: none;
+    border-bottom: 2px solid rgba(204, 204, 204, 1);
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: transparent;
+    margin: 0 0 30px;
+}
+
+.login-page__input:nth-last-child(2n) {
+    margin: 0;
+}

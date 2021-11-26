@@ -1,0 +1,5 @@
+.header__logo-container {
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
